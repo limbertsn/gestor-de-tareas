@@ -14,6 +14,19 @@
   cursor: pointer;
 }
 
+/*COLORES, la pseudoclase nth-child asigna al enesimo hijo las propiedades declaradas (con 3n+1 se indica cada 3 hijos)*/
+.contenedor-tarea:nth-child(3n+1){
+  background-color: #1b1b32;
+}
+
+.contenedor-tarea:nth-child(3n+2){
+  background-color: #2a2a40;
+}
+
+.contenedor-tarea:nth-child(3n+3){
+  background-color: #3b3b4f;
+}
+
 .texto-tarea {
   width: 100%;
   height: 100%;
