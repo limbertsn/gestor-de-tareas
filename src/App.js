@@ -1,6 +1,7 @@
 import './App.css';
 import LogoContenedor from './components/LogoContenedor';
 import Tarea from './components/Tarea';
+import TareaFormulario from './components/TareaFormulario';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <LogoContenedor />
       <div className='contenedor-tareas'>
         <h1>MIS TAREAS</h1>
+        <TareaFormulario />
         <Tarea 
           texto = "Aprender React"
           completada={true} />
